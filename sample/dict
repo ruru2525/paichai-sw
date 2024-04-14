@@ -1,0 +1,13 @@
+d = dict()
+
+d['key'] = 'value'
+print(d)
+
+d[4] = 'string'
+print(d)
+
+d[20.2] = 99.4
+print(d)
+
+d.pop(4)
+print(d)
